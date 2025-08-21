@@ -41,7 +41,7 @@
 ```bash
 # Clone and navigate
 git clone https://github.com/Arjun-Kun/Ultimate-Dotfiles.git ~/dotfiles
-cd ~/dotfiles
+cd ~/dotfiles/dotfiles-repo
 
 # Make scripts executable
 chmod +x scripts/*.sh
@@ -55,7 +55,7 @@ chmod +x scripts/*.sh
 ```bash
 # Clone the repository
 git clone https://github.com/Arjun-Kun/Ultimate-Dotfiles.git ~/dotfiles
-cd ~/dotfiles
+cd ~/dotfiles/dotfiles-repo
 
 # Make scripts executable
 chmod +x scripts/*.sh
@@ -71,7 +71,7 @@ chmod +x scripts/*.sh
 
    ```bash
    unzip Ultimate-Dotfiles-main.zip -d ~/dotfiles
-   cd ~/dotfiles/scripts
+   cd ~/dotfiles/dotfiles-repo/scripts
    bash install.sh
    ```
 
