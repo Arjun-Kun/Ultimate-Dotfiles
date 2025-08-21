@@ -49,6 +49,9 @@ cd ~/dotfiles/dotfiles-repo
   Arch Linux: sudo pacman -S zenity
   Fedora: sudo dnf install zenity
 
+  # Stow
+  Install The Stow Package From The Same Zenity Method zenity To stow
+
 # Make scripts executable
 chmod +x scripts/*.sh
 
@@ -69,26 +72,15 @@ cd ~/dotfiles/dotfiles-repo
   Arch Linux: sudo pacman -S zenity
   Fedora: sudo dnf install zenity
 
+  # Stow
+  Install The Stow Package From The Same Zenity Method zenity To stow
+
 # Make scripts executable
 chmod +x scripts/*.sh
 
 # Run the installer (uses GNU Stow)
 ./scripts/install.sh
 ```
-
-### 🔹 Method 3: ZIP Download
-
-1. [Download ZIP](https://github.com/Arjun-Kun/Ultimate-Dotfiles/archive/refs/heads/main.zip)
-2. Extract and run installer:
-
-   ```bash
-   
-   unzip Ultimate-Dotfiles-main.zip -d ~/dotfiles
-   cd ~/dotfiles/dotfiles-repo/scripts
-   bash install.sh
-   ```
-
----
 
 ## 📁 Repository Structure
 
