@@ -43,6 +43,12 @@
 git clone https://github.com/Arjun-Kun/Ultimate-Dotfiles.git ~/dotfiles
 cd ~/dotfiles/dotfiles-repo
 
+# Zenity
+  IfZenity is not installed. Please install it first:
+  Ubuntu/Debian: sudo apt install zenity
+  Arch Linux: sudo pacman -S zenity
+  Fedora: sudo dnf install zenity
+
 # Make scripts executable
 chmod +x scripts/*.sh
 
@@ -57,6 +63,12 @@ chmod +x scripts/*.sh
 git clone https://github.com/Arjun-Kun/Ultimate-Dotfiles.git ~/dotfiles
 cd ~/dotfiles/dotfiles-repo
 
+# Zenity
+  If Zenity is not installed. Please install it first:
+  Ubuntu/Debian: sudo apt install zenity
+  Arch Linux: sudo pacman -S zenity
+  Fedora: sudo dnf install zenity
+
 # Make scripts executable
 chmod +x scripts/*.sh
 
@@ -70,6 +82,7 @@ chmod +x scripts/*.sh
 2. Extract and run installer:
 
    ```bash
+   
    unzip Ultimate-Dotfiles-main.zip -d ~/dotfiles
    cd ~/dotfiles/dotfiles-repo/scripts
    bash install.sh
