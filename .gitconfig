@@ -1,0 +1,54 @@
+# by Arjun Bohara
+
+[user]
+    name = Arjun Bohara
+    email = arjun@example.com
+
+[core]
+    editor = nvim
+    autocrlf = input
+    safecrlf = true
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    cm = commit -m
+    ca = commit -am
+    ps = push
+    pl = pull
+    lg = log --oneline --graph --decorate --all
+    last = log -1 HEAD
+    unstage = reset HEAD --
+    visual = !gitk
+
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[push]
+    default = simple
+
+[pull]
+    rebase = false
+
+[init]
+    defaultBranch = main
