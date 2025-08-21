@@ -44,7 +44,7 @@ git clone https://github.com/Arjun-Kun/Ultimate-Dotfiles.git ~/dotfiles
 cd ~/dotfiles/dotfiles-repo
 
 # Zenity
-  IfZenity is not installed. Please install it first:
+  If Zenity is not installed. Please install it first:
   Ubuntu/Debian: sudo apt install zenity
   Arch Linux: sudo pacman -S zenity
   Fedora: sudo dnf install zenity
