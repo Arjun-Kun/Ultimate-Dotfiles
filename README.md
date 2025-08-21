@@ -137,12 +137,6 @@ dotfiles/
 
 ---
 
-## 📸 Screenshots
-
-*Add your screenshots here to showcase your setup*
-
----
-
 ## 📜 License
 
 MIT License © 2025 **Arjun-Kun**
